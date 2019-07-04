@@ -1,0 +1,60 @@
+.container {
+
+}
+
+.page-header {
+	margin-top: 10px!important;
+	text-align: center;
+}
+h1 {
+	margin-top: 0px!important;
+	background-color: rgba(255,255,255,0.5) ;
+}
+.card {
+	background-color: rgba(255,255,255,0.5)!important ;
+	color: ;
+}
+#current-sched {
+	
+	margin: 0;
+} */
+#current-time {
+	
+	margin: 0px;
+	text-align: right;
+}
+
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 767px) {
+    .fullscreen-bg {
+        background: url('bg2.jpg') center center / cover no-repeat;
+    }
+
+    .fullscreen-bg__video {
+        display: none;
+    }
+}
